@@ -61,7 +61,7 @@ fun MywalletApp() {
     ) {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
             Greeting(
-                name = "Android",
+                name = "manda",
                 modifier = Modifier.padding(innerPadding)
             )
         }
@@ -79,8 +79,9 @@ enum class AppDestinations(
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    
     Text(
-        text = "Hello $name!",
+        text = "Hello, my name is $name!",
         modifier = modifier
     )
 }
@@ -89,6 +90,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MywalletTheme {
-        Greeting("Android")
+        Greeting("Manda")
     }
 }
